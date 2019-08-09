@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/MyTube/static/js/main.41a6d804.chunk.js",
+    "main.js.map": "/MyTube/static/js/main.41a6d804.chunk.js.map",
+    "runtime~main.js": "/MyTube/static/js/runtime~main.663f31e1.js",
+    "runtime~main.js.map": "/MyTube/static/js/runtime~main.663f31e1.js.map",
+    "static/js/2.abde703d.chunk.js": "/MyTube/static/js/2.abde703d.chunk.js",
+    "static/js/2.abde703d.chunk.js.map": "/MyTube/static/js/2.abde703d.chunk.js.map",
+    "index.html": "/MyTube/index.html",
+    "precache-manifest.a52204b44c2a4c20a471e1bbfd61256e.js": "/MyTube/precache-manifest.a52204b44c2a4c20a471e1bbfd61256e.js",
+    "service-worker.js": "/MyTube/service-worker.js"
+  }
+}
