@@ -1,6 +1,6 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
 import youtube from "./api/youtube";
+import "./stylesheets/App.css";
 
 import { SearchBar, VideoDetail, VideoList } from "./components";
 
@@ -36,21 +36,19 @@ class App extends React.Component {
   render() {
     const { selectedVideo, videos } = this.state;
     return (
-      <Grid justify="center" container spacing={10}>
-        <Grid item xs={12}>
-          <Grid container spacing={10}>
-            <Grid item xs={12}>
+      <div>
+        <div>
+          <div>
+            <div>
               <SearchBar onFormSubmit={this.handleSubmit} />
-            </Grid>
-            <Grid item xs={8}>
+            </div>
+            <div className="video-container">
               <VideoDetail video={selectedVideo} />
-            </Grid>
-            <Grid item xs={4}>
               <VideoList videos={videos} onVideoSelect={this.onVideoSelect} />
-            </Grid>
-          </Grid>
-        </Grid>
-      </Grid>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }

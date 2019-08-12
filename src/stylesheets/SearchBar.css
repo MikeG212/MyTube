@@ -1,0 +1,22 @@
+.search-container {
+  display: flex;
+  margin: 10px auto;
+}
+
+.search-bar {
+  margin: auto;
+}
+
+.search-input {
+  height: 32px;
+  width: 282px;
+  background-color: #ffffff;
+  box-shadow: none;
+  outline: none;
+  padding: 1px;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 2px 0px 0px 4px;
+  border-radius: 2px 0 0 2px;
+}

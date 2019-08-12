@@ -1,0 +1,9 @@
+.video-player {
+  height: 500px;
+  width: 660px;
+  margin: 40px;
+}
+
+.video-player-container {
+  width: 600px;
+}

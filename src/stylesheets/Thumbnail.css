@@ -1,0 +1,15 @@
+.thumbnail {
+  display: flex;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  width: 168px;
+  height: 95px;
+}
+
+.thumbnail-info {
+  margin-left: 20px;
+  font-size: 8px;
+  overflow: none;
+}
